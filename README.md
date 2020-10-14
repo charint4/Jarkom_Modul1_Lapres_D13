@@ -28,14 +28,14 @@ Gambar di dapat dari export object http
 
 Gambar yang diperoleh:
 
-![soal2-2](/img/soal2-2.png)
+![soal2-2](/img/soal2-2.jpg)
 
 ### Soal 3
 > Cari username dan password ketika login di [ppid.dpr.go.id](ppid.dpr.go.id)
 
 Mencari packet yang berasal dari [ppid.dpr.go.id](ppid.dpr.go.id) dengan metode request POST
 
-![soal3-1](/img/soal3-1.png)
+![soal3-1](/img/soal3-1.PNG)
 
 Kredensial login berada pada header `HTML Form URL Encoded`
 
