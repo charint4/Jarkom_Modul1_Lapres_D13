@@ -3,6 +3,8 @@ Kelompok D13
 - 05111840000094 Rafi Nizar Abiyyi
 - 05111740000192 Faishal Abiyyudzakir
 
+<br>
+
 #### Soal 1
 > Sebutkan webserver yang digunakan pada [testing.mekanis.me](testing.mekanis.me)
 
@@ -19,6 +21,8 @@ Web server tertulis pada conversation dari server dalam tcp stream, server berad
 Server: nginx/1.14.0 (Ubuntu)
 ```
 
+<br>
+
 ### Soal 2
 > Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"
 
@@ -29,6 +33,8 @@ Gambar di dapat dari export object http
 Gambar yang diperoleh:
 
 ![soal2-2](/img/soal2-2.jpg)
+
+<br>
 
 ### Soal 3
 > Cari username dan password ketika login di [ppid.dpr.go.id](ppid.dpr.go.id)
@@ -47,12 +53,18 @@ Form item: "username" = "10pemuda"
 Form item: "password" = "guncangdunia"
 ```
 
+<br>
+
+
 ### Soal 4
 > Temukan web-web yang menggunakan basic authentication method
 
 Website dengan basic authentication method dapat dicari menggunakan display filter `http.authbasic`
 
 ![soal4-1](/img/soal4-1.png)
+
+<br>
+
 
 ### Soal 5
 > Ikuti perintah di [aku.pengen.pw](aku.pengen.pw),
@@ -75,6 +87,8 @@ Perintah pada [aku.pengen.pw](aku.pengen.pw) adalah
 
 Putih orange, orange, putih hijau, biru, putih biru, hijau, putih coklat, coklat
 
+<br>
+
 ### Soal 6
 
 > Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut)
@@ -95,6 +109,9 @@ Password untuk file zip didapat adalah `hey997400323051`, yang kemudian digunaka
 
 ![soal6-4](/img/soal6-4.png)
 
+<br>
+
+
 ### Soal 7
 
 > Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.   Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
@@ -106,6 +123,9 @@ File zip yang menyimpan `Yes.pdf` dicari menggunakan display filter `ftp-data co
 Puisi berada dalam `473.zip`
 
 ![soal7-2](/img/soal7-2.png)
+
+<br>
+
 
 ### Soal 8
 
@@ -119,12 +139,18 @@ Mencari packet RETR pada ip address `198.246.117.106` menggunakan display filter
 
 ![soal8-2](/img/soal8-2.png)
 
+<br>
+
+
 ### Soal 9
 > Cari username dan password ketika login FTP pada localhost
 
 Kredensial FTP didapat menggunakan display filter `ftp contains USER or ftp contains PASS`
 
 ![soal9-1](/img/soal9-1.png)
+
+<br>
+
 
 ### Soal 10
 
@@ -143,12 +169,18 @@ File pdf yang didapat:
 
 ![soal10-3](/img/soal10-3.png)
 
+<br>
+
+
 ### Soal 11
 > Filter sehingga wireshark hanya mengambil paket yang mengandung port 21
 
 Capture filter untuk packet yang mengandung port 21: `port 21`
 
 ![soal11-1](/img/soal11-1.png)
+
+<br>
+
 
 ### Soal 12
 > Filter sehingga wireshark hanya mengambil paket yang berasal port 80
@@ -157,12 +189,18 @@ Capture filter untuk packet yang berasal dari port 80: `src port 80`
 
 ![soal12-1](/img/soal12-1.png)
 
+<br>
+
+
 ### Soal 13
 > Filter sehingga wireshark hanya mengambil paket yang menuju port 443
 
 Capture filter untuk packet yang menuju port 443: `dst port 443`
 
 ![soal13-1](/img/soal13-1.png)
+
+<br>
+
 
 ### Soal 14
 > Filter sehingga wireshark hanya mengambil paket yang berasal dari ipkalian
@@ -171,6 +209,9 @@ Mencari ip klien dalam jaringan menggunakan `ipconfig` dalam cmd.
 Capture filter untuk packet yang berasal dari ip klien: `src host 192.168.1.68`
 
 ![soal14-1](/img/soal14-1.png)
+
+<br>
+
 
 ### Soal 15
 > Filter sehingga wireshark hanya mengambil paket yang tujuannya ke [monta.if.its.ac.id](monta.if.its.ac.id)
